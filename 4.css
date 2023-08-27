@@ -1,0 +1,57 @@
+@font-face{ src: url(Adventure\ Time\ Logo.ttf);
+    font-family: adventure;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+p{
+
+    text-align: center;
+    justify-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    letter-spacing: -1;
+    z-index: 1;
+    font-weight: 900;
+    color: rgb(28, 47, 71);
+}
+.txt{
+    position:relative;
+    left: -158px;
+}
+.drawing{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 450px;
+}
+.draw{
+    filter: grayscale(100);
+    width: 241px;
+    height: 351px;
+}
+h1{
+   color: black;
+   font-family: adventure;
+   font-size: 45px;
+   position:absolute;
+   top: -80px;
+   left: 50px;  
+   font-weight: 100;
+}
+.return{
+    position: absolute;
+    left: 800px;
+    top: 570px;
+ 
+}
+.size4{
+    width: 90px;
+    height: 30px;
+}
+

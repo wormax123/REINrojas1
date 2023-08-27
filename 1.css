@@ -1,0 +1,49 @@
+@font-face{ src: url(Adventure\ Time\ Logo.ttf);
+    font-family: adventure;
+
+}
+.text{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: black;
+    font-family: adventure;
+   
+    
+}
+body{
+    
+    background-size: 125%;
+}
+img{
+    width: 650px;
+    height: 600px;
+  
+
+
+}
+
+.text{
+    margin-top: -500px;
+    margin-left: -240px;
+    position: relative;
+}
+.png{
+    position: absolute;
+    left: 440px;
+    top: 00px;
+}
+.return{
+    position: absolute;
+    left: 800px;
+    top: 570px;
+ 
+}
+.size{
+    width: 90px;
+    height: 30px;
+}

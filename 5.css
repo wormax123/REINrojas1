@@ -1,0 +1,41 @@
+body{
+    background-size: 103%;
+}
+p{
+    color: aliceblue;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px pink;
+}
+.icon{
+    position: absolute;
+    left: 460px;
+    top: 400px;
+}
+.size{
+    width: 140px;
+    height: 140px;
+}
+.mask{
+    position: absolute;
+    left: 81.50%;
+    top: 20%;
+}
+.size2{
+    width: 80px;
+    height: 52px;
+}
+.simg{
+    width: 90px;
+    height: 30px;
+}
+.return{
+    
+        position: absolute;
+        left: 800px;
+        top: 570px;
+     
+    
+}

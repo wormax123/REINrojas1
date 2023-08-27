@@ -1,0 +1,77 @@
+@font-face{ src: url(Adventure\ Time\ Logo.ttf);
+    font-family: adventure;}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+    
+        text-align: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 220px;
+        color: black;
+        font-family: adventure;
+       
+    }
+    .text{
+        margin-top: 45vh;
+        margin-left: -100px;
+        z-index: 3;
+       
+        
+    }
+    .good{
+        margin-top: -550px;
+        margin-left: 1400px;
+    }
+    .sword{
+        position: relative;
+        left:  -230px;
+        top: -350px;
+        z-index: 2;
+        max-width: 500px;
+    }
+    .size{
+        position: absolute;
+        width: 835px;
+        height: 143px;
+        
+    }
+    .h1{
+       margin-top: -200px;
+       margin-left:0 ;
+        
+    }
+    .h2{
+        margin-top: -180px;
+        margin-left: 360px;
+    }
+    span{
+        position: relative;
+        z-index: 4;
+
+        
+    }
+    .smoke{
+      margin-top: -810px;
+      margin-left: 700px;
+    }
+    .smoke2{
+        width: 120px;
+        height: 570px;
+    }
+    .bemo{
+        position: relative;
+        z-index: -1;
+        margin-top: -57%;
+        margin-left: -45%;
+    }
+    .sbemo{
+        
+        width: 200px;
+        height: 200px;
+
+    }

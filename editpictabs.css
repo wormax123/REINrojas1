@@ -1,0 +1,375 @@
+@font-face{ src: url(Adventure\ Time\ Logo.ttf);
+           font-family: adventure;
+}
+body{
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+h1{
+    text-align: center;
+    color: gold;
+    font-family: adventure;
+    font-size: 45px;
+    background-color: black;
+
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    
+    transition: .2s;
+  
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(0, .6, 0, .6);
+    
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay > *{
+    transform: translate(-90px,-0px);
+    transition: .25s;
+}
+.overlay:hover > *{
+    transform: translate(-90px,-32px);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    top: 17.60%;
+    left: 35%;
+    transition: .2s;
+  
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(.6, .6, 0, .6);
+    
+}
+.content2{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container2:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay2 > *{
+    transform: translate(-100px,-0px);
+    transition: .25s;
+}
+.overlay2:hover > *{
+    transform: translate(-100px,-32px);
+}
+.overlay2:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container3{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    top: 17.60%;
+    left: 69%;
+    transition: .2s;
+  
+}
+
+.overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(0, .6, 0, .6);
+    
+}
+.content3{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container3:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay3 > *{
+    transform: translate(-100px,-0px);
+    transition: .25s;
+}
+.overlay3:hover > *{
+    transform: translate(-100px,-32px);
+}
+.overlay3:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.container4{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    top: 59%;
+    transition: .2s;
+  
+}
+
+.overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(0, .6, 0, .6);
+    
+}
+.content4{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container4:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay4 > *{
+    transform: translate(-100px,-0px);
+    transition: .25s;
+}
+.overlay4:hover > *{
+    transform: translate(-100px,-32px);
+}
+.overlay4:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.container5{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    left: 35%;
+    top: 59%;
+    transition: .2s;
+  
+}
+
+.overlay5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(0, .6, 0, .6);
+    
+}
+.content5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container5:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay5 > *{
+    transform: translate(-100px,-0px);
+    transition: .25s;
+}
+.overlay5:hover > *{
+    transform: translate(-100px,-32px);
+}
+.overlay5:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.container6{
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    left: 68.70%;
+    top: 59%;
+    transition: .2s;
+  
+}
+
+.overlay6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.25s;
+    opacity: 0;
+    background-color: rgba(0, .6, 0, .6);
+    
+}
+.content6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 60px;
+    font-family: adventure;
+    text-shadow: 5px 5px black;
+
+}
+.container6:hover {
+   
+    transform: scale(1.1);
+
+}
+.overlay6:hover{
+    opacity: 1;
+}
+.overlay6 > *{
+    transform: translate(-60px,-0px);
+    transition: .25s;
+}
+.overlay6:hover > *{
+    transform: translate( -60px,-32px);
+}
+.opacity{
+    opacity: 0;
+}
+.container6:active{
+    transform: scale(2);
+}

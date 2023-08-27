@@ -1,0 +1,44 @@
+p{
+
+    text-align: center;
+    justify-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 14.50px;
+    letter-spacing: 0;
+    z-index: 1;
+    font-weight: 900;
+    color: rgb(28, 47, 71);
+}
+body{
+    background-color: hsl(350, 100%, 79%);
+}
+.img{
+    width: 500px;
+    position: absolute;
+    top: -0%;
+   z-index: -2;
+}
+.size{
+    width: 60%;
+}
+.img2{
+    position: absolute;
+    top: -90px;
+    left: 100px;
+    z-index: -1;
+}
+.size2{
+    width: 740px;
+}
+.simg{
+    width: 90px;
+    height: 30px;
+}
+.return{
+    
+        position: absolute;
+        left: 800px;
+        top: 570px;
+     
+    
+}
